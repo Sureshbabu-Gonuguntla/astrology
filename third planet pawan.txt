@@ -1,0 +1,109 @@
+x = input("Enter The 1st Planet Name :")
+y = input("Enter The 2nd Planet Name :")
+z = input("Enter the 3rd Planet Name :")
+if x==y or x==z or y==z:
+    print("Please enter 3 different Planet names ")
+elif x=='sun' or 'moon' or 'mars' and y=='moon' or 'mars' or 'sun'and z=='mars' or 'sun' or 'moon': 
+    print("the person born will extirpate the whole brood of his enemies, or be wealthy or politic.")
+
+elif x=='moon' or 'sun' or 'mercury' and y=='sun' or 'mercury' or 'moon'and z=='mercury' or 'moon' or 'sun': 
+    print("the person that has his birth in the will be a king's compeer famed for his learning. ")
+
+elif x=='sun' or 'moon' or 'jupiter' or y=='moon' or 'jupiter' or 'sun'and z=='jupiter' or 'sun' or 'moon': 
+    print("the trio planets influencing a birth, the effect of the yoga on the person born will be to make him a mine of virtues, learned or much liked by his sovereign. ")
+
+elif x=='sun' or 'moon' or 'venus' and y=='moon' or 'venus' or 'sun'and z=='venus' or 'sun' or 'moon': 
+    print("the person born will be addicted to other people's wives, cruel, in dread of enemies or rich.")
+
+elif x=='saturn' or 'moon' or 'sun' and y=='moon' or 'sun' or 'saturn'and z=='sun' or 'saturn' or 'moon': 
+    print("the person born will be wickedly inclined, deceitful or fond of foreign countries. ")
+
+elif x=='sun' or 'mars' or 'mercury' and y=='mars' or 'mercury' or 'sun'and z=='mercury' or 'sun' or 'mars': 
+    print("the person whose birth is influenced by them will be bereft of comforts though possessed of sons, riches, or wives. ")
+
+elif x=='jupiter' or 'sun' or 'mars' and y=='sun' or 'mars' or 'jupiter'and z=='mars' or 'jupiter' or 'sun': 
+    print("the person born in the yoga will be a patriotic premier or commorer in chief.")
+
+elif x=='mars' or 'sun' or 'venus' and y=='sun' or 'venus' or 'mars'and z=='venus' or 'mars' or 'sun': 
+    print("the person born will suffer from disease of the eye, will be a voluptuary, of gentle birth or of great wealth")
+
+elif x=='saturn' or 'sun' or 'mars' and y=='sun' or 'mars' or 'saturn'or z=='mars' or 'saturn' or 'sun': 
+    print("the person affected by it will be bereft of kindred, ignorant, wealthy but suffering from diseases. ")
+
+elif x=='jupiter' or 'saturn' or 'mercury' and y=='saturn' or 'mercury' or 'jupiter'and z=='mercury' or 'jupiter' or 'saturn': 
+    print(" the person born will be sharp witted, famed for his learning or wealthy. ")
+
+elif x=='sun' or 'mercury' or 'venus' and y=='mercury' or 'venus' or 'sun'and z=='venus' or 'sun' or 'mercury': 
+    print("will be of soft body, will be learned , famous or will live in comfort . ")
+
+elif x=='sun' or 'mercury' or 'saturn' and y=='mercury' or 'saturn' or 'sun'and z=='saturn' or 'sun' or 'mercury': 
+    print("will be without kinsmen or poor—will hate mankind or will be of vicious habits . ")
+
+elif x=='sun' or 'jupiter' or 'venus' or y=='jupiter' or 'venus' or 'sun'and z=='venus' or 'sun' or 'jupiter': 
+    print("will possess a good wife ‘ an d children , will be very intelligent , will suffer from diseases of the eye or will be rich . ")
+
+elif x=='sun' or 'jupiter' or 'saturn' and y=='jupiter' or 'saturn' or 'sun'and z=='saturn' or 'sun' or 'jupiter': 
+    print("will be fearless , will h e liked by the king or will be of quiet or excellent disposition . ")
+
+elif x=='sun' or 'venus' or 'saturn' and y=='venus' or 'saturn' or 'sun'and z=='saturn' or 'sun' or 'venus': 
+    print("will be i o f bad reputation or will be haughty or insolent .")
+
+elif x=='moon' or 'mars' or 'mercury' and y=='mars' or 'mercury' or 'moon'and z=='mercury' or 'moon' or 'mars': 
+    print("will be gluttonous , will be addicted to wicked deeds or will abuse other people . ")
+
+elif x=='moon' or 'mars' or 'jupiter' or y=='mars' or 'jupiter' or 'moon'and z=='jupiter' or 'moon' or 'mars': 
+    print("will be of angry speech , will be of strong sexual passion or will be beautiful . ")
+
+elif x=='moon' or 'mars' or 'venus' and y=='mars' or 'venus' or 'moon'and z=='venus' or 'moon' or 'mars': 
+    print("will be of bad conduct , will have no sons or will be fond of travels . ")
+
+elif x=='moon' or 'mars' or 'saturn' and y=='mars' or 'saturn' or 'moon'and z=='saturn' or 'moon' or 'mars': 
+    print("will be virtuous or wealthy , will have a bad wife or will be litigious . ")
+
+elif x=='moon' or 'mercury' or 'jupiter' and y=='mercury' or 'jupiter' or 'moon'and z=='jupiter' or 'moon' or 'mercury': 
+    print("will be charitable or learned in sciences, will protect good or pious m en or will be of good speech . ")
+
+elif x=='moon' or 'mercury' or 'venus' and y=='mercury' or 'venus' or 'moon'and z=='venus' or 'moon' or 'mercury': 
+    print("will be learned , will be addicted to l o w deeds or will have numerous servants . ")
+
+elif x=='moon' or 'mercury' or 'saturn' and y=='mercury' or 'saturn' or 'moon'and z=='saturn' or 'moon' or 'mercury': 
+    print("Will be liberal in gift , will be respected by the king or will be possessed of good qualities . ")
+
+elif x=='moon' or 'jupiter' or 'venus' and y=='jupiter' or 'venus' or 'moon'and z=='venus' or 'moon' or 'jupiter': 
+    print("will be intelligent, will have good sons or will be skilled in works of art .  ")
+
+elif x=='moon' or 'jupiter' or 'saturn' and y=='jupiter' or 'saturn' or 'moon'and z=='saturn' or 'moon' or 'jupiter': 
+    print("will be learned i n sciences, will be fond of old women or will be as happy as a king. ")
+
+elif x=='moon' or 'venus' or 'saturn' and y=='venus' or 'saturn' or 'moon'and z=='saturn' or 'moon' or 'venus': 
+    print("will be learned i n the Vedas , will be t h e king ’ s chaplain or will he liked by all people . ")
+
+elif x=='mars' or 'mercury' or 'jupiter' and y=='mercury' or 'jupiter' or 'mars'and z=='jupiter' or 'mars' or 'mercury': 
+    print("will be fond of music, of Vedas, of literature or of drama . ")
+
+elif x=='mars' or 'mercury' or 'venus' and y=='mercury' or 'venus' or 'mars'and z=='venus' or 'mars' or 'mercury': 
+    print("will be of defective organs , will be born of a bad family or will be of settled views . ")
+
+elif x=='mars' or 'mercury' or 'saturn' and y=='mercury' or 'saturn' or 'mars'and z=='saturn' or 'mars' or 'mercury': 
+    print("will serve under other m en, will suffer from diseases of the eye or will be fond of travels . ")
+
+elif x=='mars' or 'jupiter' or 'venus' or y=='jupiter' or 'venus' or 'mars'and z=='venus' or 'mars' or 'jupiter': 
+    print("will he liked by the king, will have good sons, or will live in comfort. ")
+
+elif x=='mars' or 'jupiter' or 'saturn' and y=='jupiter' or 'saturn' or 'mars'and z=='saturn' or 'mars' or 'jupiter': 
+    print("will be of thin body, without com fort , respectable or given up to a vicious course of life . ")
+
+elif x=='mars' or 'venus' or 'saturn' and y=='venus' or 'saturn' or 'mars'or z=='saturn' or 'mars' or 'venus': 
+    print("will have bad sons or will ever be of pure mind .")
+
+elif x=='mercury' or 'jupiter' or 'venus' and y=='jupiter' or 'venus' or 'mercury'and z=='venus' or 'mercury' or 'jupiter': 
+    print("will conquer over his enemies or will be of wide - spread fame ")
+
+elif x=='mercury' or 'jupiter' or 'saturn' and y=='jupiter' or 'saturn' or 'mercury'and z=='saturn' or 'mercury' or 'jupiter': 
+    print("will li v e in great comfort, will be wealthy or will be attached to his wife .")
+
+elif x=='mercury' or 'venus' or 'saturn' and y=='venus' or 'saturn' or 'mercury'and z=='saturn' or 'mercury' or 'venus': 
+    print("will tell lies . ")
+
+elif x=='jupiter' or 'venus' or 'saturn' and y=='venus' or 'saturn' or 'jupiter'and z=='saturn' or 'jupiter' or 'venus': 
+    print("will be of clear understoring or will be happy or famous . ")

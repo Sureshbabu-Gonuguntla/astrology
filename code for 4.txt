@@ -1,0 +1,77 @@
+planets = []
+for x in range(4):
+    k = input("enter planet name : \n",)
+    planets.append(k)
+b = set(planets)
+m = sorted(b)
+if m == ['mars', 'mercury', 'moon', 'sun']:
+    print("super")
+elif m == ['jupiter', 'mars', 'moon', 'sun']:
+    print("super2")
+elif m == ['mars', 'moon', 'sun', 'venus']:
+    print("super3")
+elif m == ['mars', 'moon', 'saturn', 'sun']:
+    print("super4")
+elif m == ['jupiter', 'mercury', 'moon', 'sun']:
+        print("super5")
+elif m == ['mars', 'moon', 'saturn', 'venus']:
+        print("super34")
+elif m == ['mercury', 'moon', 'sun', 'venus']:
+        print("super6")
+elif m == ['mercury', 'moon', 'saturn', 'sun']:
+        print("super7")
+elif m == ['jupiter', 'moon', 'sun', 'venus']:
+    print("super8")
+elif m == ['jupiter', 'moon', 'saturn', 'sun']:
+    print("super9")
+elif m == ['moon', 'saturn', 'sun', 'venus']:
+    print("super10")
+elif m == ['jupiter', 'mars', 'mercury', 'sun']:
+    print("super11")
+elif m == ['mars', 'mercury', 'sun', 'venus']:
+    print("super12")
+elif m == ['mars', 'mercury', 'saturn', 'sun']:
+    print("super13")
+elif m == ['jupiter', 'mars', 'sun', 'venus']:
+    print("super14")
+elif m == ['jupiter', 'mars', 'sun', 'venus']:
+    print("super15")
+elif m == ['jupiter', 'mars', 'saturn', 'sun']:
+    print("super16")
+elif m == ['mars', 'saturn', 'sun', 'venus']:
+    print("super17")
+elif m == ['jupiter', 'mercury', 'sun', 'venus']:
+    print("super18")
+elif m == ['jupiter', 'mercury', 'saturn', 'sun']:
+    print("super19")
+elif m == ['jupiter', 'saturn', 'sun', 'venus']:
+    print("super20")
+elif m == ['jupiter', 'mars', 'mercury', 'moon']:
+    print("super21")
+elif m == ['mars', 'mercury', 'moon', 'venus']:
+    print("super22")
+elif m == ['mars', 'mercury', 'moon', 'saturn']:
+    print("super23")
+elif m == ['jupiter', 'mars', 'moon', 'venus']:
+    print("super24")
+elif m == ['jupiter', 'mars', 'moon', 'saturn']:
+    print("super25")
+elif m == ['jupiter', 'mercury', 'moon', 'venus']:
+    print("super26")
+elif m == ['jupiter', 'mercury', 'moon', 'saturn']:
+    print("super27")
+elif m == ['mercury', 'moon', 'saturn', 'venus']:
+    print("super28")
+elif m ==['jupiter', 'moon', 'saturn', 'venus']:
+    print("super29")
+elif m == ['jupiter', 'mars', 'mercury', 'venus']:
+    print("super30")
+elif m == ['jupiter', 'mars', 'mercury', 'saturn'] :
+    print("super31")
+elif m == ['jupiter', 'mars', 'saturn', 'venus']:
+    print("super32")
+elif m == ['jupiter', 'mercury', 'saturn', 'venus']:
+    print("super33")
+
+else:
+    print("wrong input, please check")

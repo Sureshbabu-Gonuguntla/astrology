@@ -1,0 +1,77 @@
+planets = []
+for x in range(4):
+    k = input("enter planet name : \n",)
+    planets.append(k)
+b = set(planets)
+m = sorted(b)
+if m == ['mars', 'mercury', 'moon', 'sun']:
+    print(" the person born will be a conjurer skilled in the production of illusions, a scribe and sickly. ")
+elif m == ['jupiter', 'mars', 'moon', 'sun']:
+    print("the person affected by the yoga will be rich, famous, talented, loyal to his sovereign and free from sorrow and sickness.")
+elif m == ['mars', 'moon', 'sun', 'venus']:
+    print("the person born in the yoga will be blessed with a wife and sons, learned, temperate, comfortable, shrewd and tender-hearted.")
+elif m == ['mars', 'moon', 'saturn', 'sun']:
+    print("the person affected by the yoga will have wild (restless) eyes, and be a wanderer, a cuckold and a pauper")
+elif m == ['jupiter', 'mercury', 'moon', 'sun']:
+        print("the person born therein will be fond of his wife and children, wealthy, virtuous famous, strong and generous.")
+elif m == ['mars', 'moon', 'saturn', 'venus']:
+        print("yet to gather")
+elif m == ['mercury', 'moon', 'sun', 'venus']:
+        print("the person affected by the yoga. Will be defective in some limb but eloquent.")
+elif m == ['mercury', 'moon', 'saturn', 'sun']:
+        print("the effect of the yoga on the person born will be that he will be destitute of wealth and ungrateful")
+elif m == ['jupiter', 'moon', 'sun', 'venus']:
+    print("the person born will be moving about in water or in some forest region, be held in great esteem by his sovereign and have many enjoyments.")
+elif m == ['jupiter', 'moon', 'saturn', 'sun']:
+    print("the person whose birth is influenced by the yoga will be broad eyed, with much wealth and many sons and will have for his wife a courtesan")
+elif m == ['moon', 'saturn', 'sun', 'venus']:
+    print("the person born in the yoga will be weak, exceedingly cowardly, with his wealth depending on his unmarried daughters and given to gluttonous habits. ")
+elif m == ['jupiter', 'mars', 'mercury', 'sun']:
+    print("the person whose birth is affected by the yoga in question will be strong but afflicted with misfortune, possessed of wives and riches, suffering from ophthalmic and of vagrant(without home begging habits.")
+elif m == ['mars', 'mercury', 'sun', 'venus']:
+    print("the person that has his birth will be addicted to other men's wives, of odd looks and dress, thievishly inclined and devoid of all goodness")
+elif m == ['mars', 'mercury', 'saturn', 'sun']:
+    print("the person born will be a commander of an army or a king's minister, stooping to base acts and inclined to pleasure")
+elif m == ['jupiter', 'mars', 'sun', 'venus']:
+    print("the person born will have a status equal to that of a sovereign, be renowned, highly esteemed and wealthy.")
+elif m == ['jupiter', 'mars', 'sun', 'venus']:
+    print(" the person whose birth is affected by it will be poor, wandering, with good friends and relatives.")
+elif m == ['jupiter', 'mars', 'saturn', 'sun']:
+    print("the effect of the yoga on the person born will be that he will be in disgrace and become the foremost of misdemeanants. ")
+elif m == ['mars', 'saturn', 'sun', 'venus']:
+    print("the person born under their influence will care chiefly for wealth and fame, and will become an important personage in the community to which he may belong")
+elif m == ['jupiter', 'mercury', 'sun', 'venus']:
+    print("the person born in it will be quarrelsome, self, conceited and ill-mannered.")
+elif m == ['jupiter', 'mercury', 'saturn', 'sun']:
+    print("the person affected by the yoga will be beautiful, wedded to truth, and virtuous. ")
+elif m == ['jupiter', 'saturn', 'sun', 'venus']:
+    print("the person born in it will be proficient in the art, in command of the vulgar people and daring ")
+elif m == ['jupiter', 'mars', 'mercury', 'moon']:
+    print("the person who has his birth in the yoga will be devoted to the good of his sovereign, become a wise minister and finally a ruler of the earth.")
+elif m == ['mars', 'mercury', 'moon', 'venus']:
+    print("the person born in the yoga will have good wives and sons, will be wise, deformed and happy.")
+elif m == ['mars', 'mercury', 'moon', 'saturn']:
+    print("the person affected by it will have two mothers and fathers, will be brave, with many wives and sons.")
+elif m == ['jupiter', 'mars', 'moon', 'venus']:
+    print("the person whose birth is influenced by it will be clever in iniquity, sleepy and itching for wealth.")
+elif m == ['jupiter', 'mars', 'moon', 'saturn']:
+    print("The person will be firm, minded, brave, comfortable and learned")
+elif m == ['jupiter', 'mercury', 'moon', 'venus']:
+    print("The person will be deaf, but learned, famous and wealthy.")
+elif m == ['jupiter', 'mercury', 'moon', 'saturn']:
+    print("the person influenced by it will be exceedingly wealthy, kind to his relatives and charitable.")
+elif m == ['mercury', 'moon', 'saturn', 'venus']:
+    print("The person will become hostile to a large number of persons and have Intrigues with the wives of other people. ")
+elif m ==['jupiter', 'moon', 'saturn', 'venus']:
+    print("the person who has his nativity in the yoga will be devoid of ease, Sceptical and unfeeling")
+elif m == ['jupiter', 'mars', 'mercury', 'venus']:
+    print("The person will be rich and reviled. ")
+elif m == ['jupiter', 'mars', 'mercury', 'saturn'] :
+    print("the person whose birth is in it will be sickly and destitute of wealth. ")
+elif m == ['jupiter', 'mars', 'saturn', 'venus']:
+    print("the person born in the yoga will have exceeding wealth, learning and amiability.")
+elif m == ['jupiter', 'mercury', 'saturn', 'venus']:
+    print("yet to gather")
+
+else:
+    print("wrong input, please check")

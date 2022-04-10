@@ -1,0 +1,47 @@
+x = int(input("Enter first lord occupied house number "))
+
+
+if x==1:
+   print("Lagn’s Lord be in Lagn itself, the native will be endowed with physical happiness and prowess. "
+         "He will be intelligent, fickle-minded, will have two wives and will unite with other females")
+if x==2:
+   print("the Lagn’s Lord is in Dhan, he will be gainful, scholarly, happy, endowed with good qualities, "
+         "be religious, honourable and will have many wives.")
+if x == 3:
+         print("If Lagn’s Lord is in Sahaj Bhava, the native will equal a lion in valour, be endowed,"
+               " with all kinds of wealth, be honourable, will have two wives, be intelligent and happy.")
+if x == 4:
+         print("If Lagn’s Lord is in Bandhu Bhava, the native will be endowed with paternal and, "
+                 "maternal happiness, will have many brothers, be lustful, virtuous and charming.")
+
+if x == 5:
+         print("If Lagn’s Lord is in Putr Bhava, the native will have mediocre progenic happiness,"
+               "will lose his first child, be honourable, given to anger and be dear to king.")
+
+if x == 6:
+         print("If Lagn’s Lord is in Ari Bhava and related to a malefic the native will be devoid of,"
+               "physical happiness and will be troubled by enemies, if there is no benefic Drishti.")
+
+if x == 7:
+         print("If Lagn’s Lord is a malefic and is placed in Yuvati Bhava, the natives wife will not,"
+               "live (long). If the Grah in question is a benefic, one will wander aimlessly, face penury,"
+               "and be dejected. He will alternatively become a king (if the said Grah is strong).")
+
+if x == 8:
+         print("If Lagn’s Lord is in Randhr Bhava, the native will be an accomplished scholar, be,"
+               "sickly, thievish, be given to much anger, be a gambler and will join others’ wives.")
+if x == 9:
+         print("If Lagn’s Lord is in Dharm Bhava, the native will be fortunate, dear to people, be a,"
+               "devotee of Śrī Vishnu, be skilful, eloquent in speech and be endowed with wife, sons")
+if x == 10:
+         print(" If Lagn’s Lord is in Karm Bhava, the native will be endowed with paternal "
+               "happiness, royal honour, fame among men and will doubtlessly have self-earned wealth.")
+if x == 11:
+         print("If Lagn’s Lord is in Labh Bhava, the native will always be endowed with gains, good"
+               "qualities, fame and many wives.")
+if x == 12:
+         print(" If Lagn’s Lord is in Vyaya Bhava and is devoid of benefic Drishti and/or Yuti, the"
+               "native will be bereft of physical happiness, will spend unfruitfully and be given to much"
+               "anger.")
+n = int(input("second lord occupied house number "))
+

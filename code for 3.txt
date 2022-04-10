@@ -1,0 +1,79 @@
+
+x = input("Enter The 1st Planet Name :")
+y = input("Enter The 2nd Planet Name :")
+z = input("Enter the 3rd Planet Name :")
+
+if x == 'sun' and y == 'moon' and z == 'mars' or x == 'moon' and y == 'mars' and z == 'sun' or x == 'mars' and y == 'sun' and z == 'moon' or x == 'mars' and y == 'moon' and z == 'sun' or x == 'moon' and y == 'sun' and z == 'mars' or x == 'sun' and y == 'mars' and z == 'moon':
+    print("shiva")
+elif x == 'sun' and y == 'moon' and z == 'mercury' or x == 'moon' and y == 'mercury' and z == 'sun' or x == 'mercury' and y == 'sun' and z == 'moon' or x == 'mercury' and y == 'moon' and z == 'sun' or x == 'moon' and y == 'sun' and z == 'mercury' or x == 'sun' and y == 'mercury' and z == 'moon':
+    print("shakti")
+elif  x == 'sun' and y == 'moon' and z == 'jupiter' or x == 'moon' and y == 'jupiter' and z == 'sun' or x == 'jupiter' and y == 'sun' and z == 'moon' or x == 'jupiter' and y == 'moon' and z == 'sun' or x == 'moon' and y == 'sun' and z == 'jupiter' or x == 'sun' and y == 'jupiter' and z == 'moon':
+    print("bhavani")
+elif  x == 'sun' and y == 'moon' and z == 'venus' or x == 'moon' and y == 'venus' and z == 'sun' or x == 'venus' and y == 'sun' and z == 'moon' or x == 'venus' and y == 'moon' and z == 'sun' or x == 'moon' and y == 'sun' and z == 'venus' or x == 'sun' and y == 'venus' and z == 'moon':
+    print("ambika")
+elif  x == 'sun' and y == 'moon' and z == 'saturn' or x == 'moon' and y == 'saturn' and z == 'sun' or x == 'saturn' and y == 'sun' and z == 'moon' or x == 'saturn' and y == 'moon' and z == 'sun' or x == 'moon' and y == 'sun' and z == 'saturn' or x == 'sun' and y == 'saturn' and z == 'moon':
+    print("saraswati")
+elif x == 'sun' and y == 'mars' and z == 'mercury' or x == 'mars' and y == 'mercury' and z == 'sun' or x == 'mercury' and y == 'sun' and z == 'mars' or x == 'mercury' and y == 'mars' and z == 'sun' or x == 'mars' and y == 'sun' and z == 'mercury' or x == 'sun' and y == 'mercury' and z == 'mars':
+    print("shakari")
+elif  x == 'sun' and y == 'mars' and z == 'jupiter' or x == 'mars' and y == 'jupiter' and z == 'sun' or x == 'jupiter' and y == 'sun' and z == 'mars' or x == 'jupiter' and y == 'mars' and z == 'sun' or x == 'mars' and y == 'sun' and z == 'jupiter' or x == 'sun' and y == 'jupiter' and z == 'mars':
+    print("lalitha")
+elif  x == 'sun' and y == 'mars' and z == 'venus' or x == 'mars' and y == 'venus' and z == 'sun' or x == 'venus' and y == 'sun' and z == 'mars' or x == 'venus' and y == 'mars' and z == 'sun' or x == 'mars' and y == 'sun' and z == 'venus' or x == 'sun' and y == 'venus' and z == 'mars':
+    print("1")
+elif  x == 'sun' and y == 'mars' and z == 'saturn' or x == 'mars' and y == 'saturn' and z == 'sun' or x == 'saturn' and y == 'sun' and z == 'mars' or x == 'saturn' and y == 'mars' and z == 'sun' or x == 'mars' and y == 'sun' and z == 'saturn' or x == 'sun' and y == 'saturn' and z == 'mars':
+    print("2")
+elif  x == 'sun' and y == 'mercury' and z == 'jupiter' or x == 'mercury' and y == 'jupiter' and z == 'sun' or x == 'jupiter' and y == 'sun' and z == 'mercury' or x == 'jupiter' and y == 'mercury' and z == 'sun' or x == 'mercury' and y == 'sun' and z == 'jupiter' or x == 'sun' and y == 'jupiter' and z == 'mercury':
+    print("3")
+elif  x == 'sun' and y == 'mercury' and z == 'venus' or x == 'mercury' and y == 'venus' and z == 'sun' or x == 'venus' and y == 'sun' and z == 'mercury' or x == 'venus' and y == 'mercury' and z == 'sun' or x == 'mercury' and y == 'sun' and z == 'venus' or x == 'sun' and y == 'venus' and z == 'mercury':
+    print("4")
+elif  x == 'sun' and y == 'mercury' and z == 'saturn' or x == 'mercury' and y == 'saturn' and z == 'sun' or x == 'saturn' and y == 'sun' and z == 'mercury' or x == 'saturn' and y == 'mercury' and z == 'sun' or x == 'mercury' and y == 'sun' and z == 'saturn' or x == 'sun' and y == 'saturn' and z == 'mercury':
+    print("5")
+elif  x == 'sun' and y == 'jupiter' and z == 'venus' or x == 'jupiter' and y == 'venus' and z == 'sun' or x == 'venus' and y == 'sun' and z == 'jupiter' or x == 'venus' and y == 'jupiter' and z == 'sun' or x == 'jupiter' and y == 'sun' and z == 'venus' or x == 'sun' and y == 'venus' and z == 'jupiter':
+    print("6")
+elif  x == 'sun' and y == 'jupiter' and z == 'saturn' or x == 'jupiter' and y == 'saturn' and z == 'sun' or x == 'saturn' and y == 'sun' and z == 'jupiter' or x == 'saturn' and y == 'jupiter' and z == 'sun' or x == 'jupiter' and y == 'sun' and z == 'saturn' or x == 'sun' and y == 'saturn' and z == 'jupiter':
+    print("7")
+elif  x == 'sun' and y == 'saturn' and z == 'saturn' or x == 'saturn' and y == 'saturn' and z == 'sun' or x == 'saturn' and y == 'sun' and z == 'saturn' or x == 'saturn' and y == 'saturn' and z == 'sun' or x == 'saturn' and y == 'sun' and z == 'saturn' or x == 'sun' and y == 'saturn' and z == 'saturn':
+    print("8")
+elif x == 'mercury' and y == 'moon' and z == 'mars' or x == 'moon' and y == 'mars' and z == 'mercury' or x == 'mars' and y == 'mercury' and z == 'moon' or x == 'mars' and y == 'moon' and z == 'mercury' or x == 'moon' and y == 'mercury' and z == 'mars' or x == 'mercury' and y == 'mars' and z == 'moon':
+    print("9")
+elif x == 'jupiter' and y == 'moon' and z == 'mars' or x == 'moon' and y == 'mars' and z == 'jupiter' or x == 'mars' and y == 'jupiter' and z == 'moon' or x == 'mars' and y == 'moon' and z == 'jupiter' or x == 'moon' and y == 'jupiter' and z == 'mars' or x == 'jupiter' and y == 'mars' and z == 'moon':
+    print("10")
+elif x == 'venus' and y == 'moon' and z == 'mars' or x == 'moon' and y == 'mars' and z == 'venus' or x == 'mars' and y == 'venus' and z == 'moon' or x == 'mars' and y == 'moon' and z == 'venus' or x == 'moon' and y == 'venus' and z == 'mars' or x == 'venus' and y == 'mars' and z == 'moon':
+    print("11")
+elif x == 'saturn' and y == 'moon' and z == 'mars' or x == 'moon' and y == 'mars' and z == 'saturn' or x == 'mars' and y == 'saturn' and z == 'moon' or x == 'mars' and y == 'moon' and z == 'saturn' or x == 'moon' and y == 'saturn' and z == 'mars' or x == 'saturn' and y == 'mars' and z == 'moon':
+    print("12")
+elif x == 'jupiter' and y == 'moon' and z == 'mercury' or x == 'moon' and y == 'mercury' and z == 'jupiter' or x == 'mercury' and y == 'jupiter' and z == 'moon' or x == 'mercury' and y == 'moon' and z == 'jupiter' or x == 'moon' and y == 'jupiter' and z == 'mercury' or x == 'jupiter' and y == 'mercury' and z == 'moon':
+    print("13")
+elif x == 'venus' and y == 'moon' and z == 'mercury' or x == 'moon' and y == 'mercury' and z == 'venus' or x == 'mercury' and y == 'venus' and z == 'moon' or x == 'mercury' and y == 'moon' and z == 'venus' or x == 'moon' and y == 'venus' and z == 'mercury' or x == 'venus' and y == 'mercury' and z == 'moon':
+    print("14")
+elif x == 'saturn' and y == 'moon' and z == 'mercury' or x == 'moon' and y == 'mercury' and z == 'saturn' or x == 'mercury' and y == 'saturn' and z == 'moon' or x == 'mercury' and y == 'moon' and z == 'saturn' or x == 'moon' and y == 'saturn' and z == 'mercury' or x == 'saturn' and y == 'mercury' and z == 'moon':
+    print("15")
+elif x == 'venus' and y == 'moon' and z == 'jupiter' or x == 'moon' and y == 'jupiter' and z == 'venus' or x == 'jupiter' and y == 'venus' and z == 'moon' or x == 'jupiter' and y == 'moon' and z == 'venus' or x == 'moon' and y == 'venus' and z == 'jupiter' or x == 'venus' and y == 'jupiter' and z == 'moon':
+    print("16")
+elif x == 'saturn' and y == 'moon' and z == 'jupiter' or x == 'moon' and y == 'jupiter' and z == 'saturn' or x == 'jupiter' and y == 'saturn' and z == 'moon' or x == 'jupiter' and y == 'moon' and z == 'saturn' or x == 'moon' and y == 'saturn' and z == 'jupiter' or x == 'saturn' and y == 'jupiter' and z == 'moon':
+    print("17")
+elif x == 'saturn' and y == 'moon' and z == 'venus' or x == 'moon' and y == 'venus' and z == 'saturn' or x == 'venus' and y == 'saturn' and z == 'moon' or x == 'venus' and y == 'moon' and z == 'saturn' or x == 'moon' and y == 'saturn' and z == 'venus' or x == 'saturn' and y == 'venus' and z == 'moon':
+    print("18")
+elif x == 'saturn' and y == 'mars' and z == 'mercury' or x == 'mars' and y == 'mercury' and z == 'saturn' or x == 'mercury' and y == 'saturn' and z == 'mars' or x == 'mercury' and y == 'mars' and z == 'saturn' or x == 'mars' and y == 'saturn' and z == 'mercury' or x == 'saturn' and y == 'mercury' and z == 'mars':
+    print("19")
+elif x == 'jupiter' and y == 'mars' and z == 'mercury' or x == 'mars' and y == 'mercury' and z == 'jupiter' or x == 'mercury' and y == 'jupiter' and z == 'mars' or x == 'mercury' and y == 'mars' and z == 'jupiter' or x == 'mars' and y == 'jupiter' and z == 'mercury' or x == 'jupiter' and y == 'mercury' and z == 'mars':
+    print("20")
+elif x == 'venus' and y == 'mars' and z == 'mercury' or x == 'mars' and y == 'mercury' and z == 'venus' or x == 'mercury' and y == 'venus' and z == 'mars' or x == 'mercury' and y == 'mars' and z == 'venus' or x == 'mars' and y == 'venus' and z == 'mercury' or x == 'venus' and y == 'mercury' and z == 'mars':
+    print("21")
+elif x == 'saturn' and y == 'mars' and z == 'jupiter' or x == 'mars' and y == 'jupiter' and z == 'saturn' or x == 'jupiter' and y == 'saturn' and z == 'mars' or x == 'jupiter' and y == 'mars' and z == 'saturn' or x == 'mars' and y == 'saturn' and z == 'jupiter' or x == 'saturn' and y == 'jupiter' and z == 'mars':
+    print("22")
+elif x == 'venus' and y == 'mars' and z == 'jupiter' or x == 'mars' and y == 'jupiter' and z == 'venus' or x == 'jupiter' and y == 'venus' and z == 'mars' or x == 'jupiter' and y == 'mars' and z == 'venus' or x == 'mars' and y == 'venus' and z == 'jupiter' or x == 'venus' and y == 'jupiter' and z == 'mars':
+    print("23")
+elif x == 'saturn' and y == 'mercury' and z == 'jupiter' or x == 'mercury' and y == 'jupiter' and z == 'saturn' or x == 'jupiter' and y == 'saturn' and z == 'mercury' or x == 'jupiter' and y == 'mercury' and z == 'saturn' or x == 'mercury' and y == 'saturn' and z == 'jupiter' or x == 'saturn' and y == 'jupiter' and z == 'mercury':
+    print("24")
+elif x == 'venus' and y == 'mercury' and z == 'jupiter' or x == 'mercury' and y == 'jupiter' and z == 'venus' or x == 'jupiter' and y == 'venus' and z == 'mercury' or x == 'jupiter' and y == 'mercury' and z == 'venus' or x == 'mercury' and y == 'venus' and z == 'jupiter' or x == 'venus' and y == 'jupiter' and z == 'mercury':
+    print("25")
+elif x == 'saturn' and y == 'mercury' and z == 'venus' or x == 'mercury' and y == 'venus' and z == 'saturn' or x == 'venus' and y == 'saturn' and z == 'mercury' or x == 'venus' and y == 'mercury' and z == 'saturn' or x == 'mercury' and y == 'saturn' and z == 'venus' or x == 'saturn' and y == 'venus' and z == 'mercury':
+    print("26")
+elif x == 'saturn' and y == 'jupiter' and z == 'venus' or x == 'jupiter' and y == 'venus' and z == 'saturn' or x == 'venus' and y == 'saturn' and z == 'jupiter' or x == 'venus' and y == 'jupiter' and z == 'saturn' or x == 'jupiter' and y == 'saturn' and z == 'venus' or x == 'saturn' and y == 'venus' and z == 'jupiter':
+    print("27")
+
+
+
+else:
+    print("wrong input given, please check")
+

@@ -1,0 +1,20 @@
+1 ['mars', 'moon', 'sun']
+2 ['mercury', 'moon', 'sun']
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+fruits = []
+for x in range(3):
+    k = input("enter planet name : \n",)
+    fruits.append(k)
+b = set(fruits)
+m = sorted(b)
+print(m)

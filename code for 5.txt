@@ -1,0 +1,35 @@
+1.['jupiter', 'mars', 'mercury', 'moon', 'sun'] #sun,moon,mars,mercury,jupiter
+2.['mars', 'mercury', 'moon', 'sun', 'venus'] #sun,moon,mars,mercury,venus
+3.['mars', 'mercury', 'moon', 'saturn', 'sun'] #sun,moon,mars,mercury,saturn
+4.['jupiter', 'mars', 'moon', 'sun', 'venus'] #sun,moon,mars,jupiter,venus
+5.['jupiter', 'mars', 'moon', 'saturn', 'sun'] #sun,moon,mars,jupiter,saturn
+6.['mars', 'moon', 'saturn', 'sun', 'venus'] #sun,moon,mars,venus,saturn
+------------------------------------------------------------------------------------
+7.['jupiter', 'mercury', 'moon', 'sun', 'venus']#sun,moon,mercury,jupiter,venus
+8.['jupiter', 'mercury','moon','saturn','sun'] #sun,moon,mercury,jupiter,saturn
+9.['mercury', 'moon', 'saturn', 'sun', 'venus'] #sun,moon,mercury,venus,saturn
+------------------------------------------------------------------------------------
+10.['jupiter', 'moon', 'saturn', 'sun', 'venus'] #sun,moon,jupiter,venus,saturn
+-----------------------------------------------------------------------------------
+11.['jupiter', 'mars', 'mercury', 'sun', 'venus'] # sun,mars,mercury,jupiter,venus
+12.['jupiter', 'mars', 'mercury', 'saturn', 'sun']#sun,mars,mercury,jupiter,saturn
+13.['mars', 'mercury','saturn', 'sun', 'venus'] # sun,mars,mercury,venus,saturn
+                                               
+------------------------------------------------------------------------------------
+14.['jupiter', 'mars', 'mercury', 'saturn', 'venus'] # mars,mercury,jupiter,venus,saturn
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
+15.['jupiter', 'mars', 'moon', 'saturn', 'venus'] # moon,mars,jupiter,venus,saturn
+16.['jupiter', 'mars', 'mercury', 'moon', 'saturn'] # sun,mars,jupiter,venus, saturn
+17.['jupiter', 'mercury', 'saturn', 'sun', 'venus'] #sun,mercury,jupiter,venus,saturn
+18.['jupiter', 'mars', 'mercury', 'moon', 'venus'] # moon,mars,mercury,jupiter,venus
+
+
+-------------------------------------------------------------------------------------
+19.['jupiter', 'mercury', 'moon', 'saturn', 'venus'] # moon,mercury,jupiter,venus,saturn
+-----------------------------------------------------------------------------------
+
+20.['mars', 'mercury', 'moon', 'saturn', 'venus'] # moon,mars,mercury,venus,saturn-----------------------yet to get: from saravali
+21. Moon, Mars, Mercury, Jupiter and Saturn--------------------------------------------------------------yet to get from saravali

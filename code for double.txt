@@ -1,0 +1,25 @@
+
+x = input(" 1st Planet Name :")
+y = input(" 2nd Planet Name :")
+
+if x=='sun' and y=='moon' or x=='moon' and y == 'sun':
+   print(" The Sun and the Moon ,the person will "
+         "be subject to th e influence of women , "
+         "wi ll be skilled in work and will be of bright appearance")
+elif x=='sun' and y=='mars' or x=='mars' and y == 'sun':
+    print(" will be a strong man , a liar and sinner  ")
+elif x=='sun' and y=='mercury' or x=='mercury' and y == 'sun':
+    print(" will be learned, beautiful , strong and of fixed views . ")
+elif x == 'sun' and y == 'jupiter' or x=='jupiter' and y == 'sun':
+    print(" will be earnest i n work, will be a favourite with th e ki ng and Will be rich")
+elif x=='sun' and y=='venus' or x=='venus' and y == 'sun':
+    print(" will acquire wealth through women, will have kinsmen and en em ies and will b e intelligent  ")
+elif x=='sun' and y=='saturn' or x=='saturn' and y == 'sun':
+    print(" will be of dull under standing and subject to his enemies  ")
+elif x=='moon' and y=='mars' or x=='mars' and y == 'moon':
+    print(" will be bold and born of a high family ; "
+          "will be virtuous, wealthy and possessed of"
+          "good qualities ")
+elif x=='moon' and y=='mercury' or x=='mercury' and y == 'moon':
+    print(" The Moon and Mercury, will be charitable ,"
+          "learned in sciences,and possessed of excellent qualities ")
